@@ -1,0 +1,63 @@
+{
+    "id": "test_1",
+    "group": [
+        {
+            "input": [
+                {
+                    "mode": "source",
+                    "name": "source",
+                    "type": "SourceTest"
+                },
+                {
+                    "mode": "target",
+                    "name": "target",
+                    "type": "TargetTest"
+                }
+            ],
+            "name": "map_test",
+            "rule": [
+                {
+                    "name": "id to id",
+                    "source": [
+                        {
+                            "context": "source",
+                            "element": "id",
+                            "variable": "src_0"
+                        }
+                    ],
+                    "target": [
+                        {
+                            "context": "target",
+                            "contextType": "variable",
+                            "element": "id",
+                            "parameter": [
+                                {
+                                    "valueId": "src_0"
+                                }
+                            ],
+                            "transform": "copy"
+                        }
+                    ]
+                }
+            ],
+            "typeMode": "types"
+        }
+    ],
+    "name": "Test",
+    "status": "draft",
+    "structure": [
+        {
+            "alias": "src",
+            "mode": "source",
+            "url": "http://hl7.org/fhir/StructureMap/idk"
+        },
+        {
+            "alias": "tgt",
+            "mode": "target",
+            "url": "https://fhir.bbmri.de/StructureDefinition/Patient"
+        }
+    ],
+    "title": "Test",
+    "url": "http://hl7.org/fhir/StructureMap/idk",
+    "resourceType": "StructureMap"
+}

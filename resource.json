@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Patient.id",
+    "type": "http://hl7.org/fhirpath/System.String"
+  },
+  {
+    "name": "Patient.meta",
+    "type": "Meta"
+  },
+  {
+    "name": "Patient.implicitRules",
+    "type": "uri"
+  },
+  {
+    "name": "Patient.language",
+    "type": "code"
+  },
+  {
+    "name": "Patient.text",
+    "type": "Narrative"
+  },
+  {
+    "name": "Patient.contained",
+    "type": "Resource"
+  },
+  {
+    "name": "Patient.extension",
+    "type": "Extension"
+  },
+  {
+    "name": "Patient.modifierExtension",
+    "type": "Extension"
+  },
+  {
+    "name": "Patient.identifier",
+    "type": "Identifier"
+  },
+  {
+    "name": "Patient.active",
+    "type": "boolean"
+  },
+  {
+    "name": "Patient.name",
+    "type": "HumanName"
+  },
+  {
+    "name": "Patient.telecom",
+    "type": "ContactPoint"
+  },
+  {
+    "name": "Patient.gender",
+    "type": "code"
+  },
+  {
+    "name": "Patient.birthDate",
+    "type": "date"
+  },
+  {
+    "name": "Patient.deceased[x]",
+    "type": "dateTime"
+  },
+  {
+    "name": "Patient.address",
+    "type": "Address"
+  },
+  {
+    "name": "Patient.maritalStatus",
+    "type": "CodeableConcept"
+  },
+  {
+    "name": "Patient.multipleBirth[x]",
+    "type": "boolean"
+  },
+  {
+    "name": "Patient.multipleBirth[x]",
+    "type": "integer"
+  },
+  {
+    "name": "Patient.photo",
+    "type": "Attachment"
+  },
+  {
+    "name": "Patient.contact",
+    "type": "BackboneElement"
+  },
+  {
+    "name": "Patient.contact.id",
+    "type": "http://hl7.org/fhirpath/System.String"
+  },
+  {
+    "name": "Patient.contact.extension",
+    "type": "Extension"
+  },
+  {
+    "name": "Patient.contact.modifierExtension",
+    "type": "Extension"
+  },
+  {
+    "name": "Patient.contact.relationship",
+    "type": "CodeableConcept"
+  },
+  {
+    "name": "Patient.contact.name",
+    "type": "HumanName"
+  },
+  {
+    "name": "Patient.contact.telecom",
+    "type": "ContactPoint"
+  },
+  {
+    "name": "Patient.contact.address",
+    "type": "Address"
+  },
+  {
+    "name": "Patient.contact.gender",
+    "type": "code"
+  },
+  {
+    "name": "Patient.contact.organization",
+    "type": "Reference"
+  },
+  {
+    "name": "Patient.contact.period",
+    "type": "Period"
+  },
+  {
+    "name": "Patient.communication",
+    "type": "BackboneElement"
+  },
+  {
+    "name": "Patient.communication.id",
+    "type": "http://hl7.org/fhirpath/System.String"
+  },
+  {
+    "name": "Patient.communication.extension",
+    "type": "Extension"
+  },
+  {
+    "name": "Patient.communication.modifierExtension",
+    "type": "Extension"
+  },
+  {
+    "name": "Patient.communication.language",
+    "type": "CodeableConcept"
+  },
+  {
+    "name": "Patient.communication.preferred",
+    "type": "boolean"
+  },
+  {
+    "name": "Patient.generalPractitioner",
+    "type": "Reference"
+  },
+  {
+    "name": "Patient.managingOrganization",
+    "type": "Reference"
+  },
+  {
+    "name": "Patient.link",
+    "type": "BackboneElement"
+  },
+  {
+    "name": "Patient.link.id",
+    "type": "http://hl7.org/fhirpath/System.String"
+  },
+  {
+    "name": "Patient.link.extension",
+    "type": "Extension"
+  },
+  {
+    "name": "Patient.link.modifierExtension",
+    "type": "Extension"
+  },
+  {
+    "name": "Patient.link.other",
+    "type": "Reference"
+  },
+  {
+    "name": "Patient.link.type",
+    "type": "code"
+  }
+]

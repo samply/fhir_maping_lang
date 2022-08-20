@@ -1,0 +1,308 @@
+{
+    "id": "patient",
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+            "valueUri": "http://hl7.org/fhir/idk"
+        }
+    ],
+    "abstract": true,
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "differential": {
+        "element": [
+            {
+                "id": "patient",
+                "path": "patient"
+            },
+            {
+                "id": "patient.id",
+                "max": "1",
+                "min": 1,
+                "path": "patient.id",
+                "representation": [
+                    "xmlAttr"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.consent",
+                "max": "1",
+                "min": 1,
+                "path": "patient.consent",
+                "representation": [
+                    "xmlAttr"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.year",
+                "max": "1",
+                "min": 1,
+                "path": "patient.year",
+                "representation": [
+                    "xmlAttr"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.sex",
+                "max": "1",
+                "min": 1,
+                "path": "patient.sex",
+                "representation": [
+                    "xmlAttr"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.biobank",
+                "max": "1",
+                "min": 1,
+                "path": "patient.biobank",
+                "representation": [
+                    "xmlAttr"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.sample",
+                "path": "patient.sample"
+            },
+            {
+                "id": "patient.sample.id",
+                "max": "1",
+                "min": 1,
+                "path": "patient.sample.id",
+                "representation": [
+                    "xmlAttr"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.sample.year",
+                "max": "1",
+                "min": 1,
+                "path": "patient.sample.year",
+                "representation": [
+                    "xmlAttr"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.sample.number",
+                "max": "1",
+                "min": 1,
+                "path": "patient.sample.number",
+                "representation": [
+                    "xmlAttr"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.sample.materialType",
+                "path": "patient.sample.materialType"
+            },
+            {
+                "id": "patient.sample.materialType.txt",
+                "max": "1",
+                "min": 1,
+                "path": "patient.sample.materialType.txt",
+                "representation": [
+                    "xmlText"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.sample.totalAliquots",
+                "path": "patient.sample.totalAliquots"
+            },
+            {
+                "id": "patient.sample.totalAliquots.txt",
+                "max": "1",
+                "min": 1,
+                "path": "patient.sample.totalAliquots.txt",
+                "representation": [
+                    "xmlText"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.sample.availableAliquots",
+                "path": "patient.sample.availableAliquots"
+            },
+            {
+                "id": "patient.sample.availableAliquots.txt",
+                "max": "1",
+                "min": 1,
+                "path": "patient.sample.availableAliquots.txt",
+                "representation": [
+                    "xmlText"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.sample.takingDateTime",
+                "path": "patient.sample.takingDateTime"
+            },
+            {
+                "id": "patient.sample.takingDateTime.txt",
+                "max": "1",
+                "min": 1,
+                "path": "patient.sample.takingDateTime.txt",
+                "representation": [
+                    "xmlText"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.sample.retrieved",
+                "path": "patient.sample.retrieved"
+            },
+            {
+                "id": "patient.sample.retrieved.txt",
+                "max": "1",
+                "min": 1,
+                "path": "patient.sample.retrieved.txt",
+                "representation": [
+                    "xmlText"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.sample.diagnosis",
+                "path": "patient.sample.diagnosis"
+            },
+            {
+                "id": "patient.sample.diagnosis.txt",
+                "max": "1",
+                "min": 1,
+                "path": "patient.sample.diagnosis.txt",
+                "representation": [
+                    "xmlText"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.sample.storageMethodology",
+                "path": "patient.sample.storageMethodology"
+            },
+            {
+                "id": "patient.sample.storageMethodology.temperatureCelsius",
+                "path": "patient.sample.storageMethodology.temperatureCelsius"
+            },
+            {
+                "id": "patient.sample.storageMethodology.temperatureCelsius.txt",
+                "max": "1",
+                "min": 1,
+                "path": "patient.sample.storageMethodology.temperatureCelsius.txt",
+                "representation": [
+                    "xmlText"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.sample.storageMethodology.methodology",
+                "path": "patient.sample.storageMethodology.methodology"
+            },
+            {
+                "id": "patient.sample.storageMethodology.methodology.txt",
+                "max": "1",
+                "min": 1,
+                "path": "patient.sample.storageMethodology.methodology.txt",
+                "representation": [
+                    "xmlText"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            },
+            {
+                "id": "patient.sample.storageMethodology.sts",
+                "path": "patient.sample.storageMethodology.sts"
+            },
+            {
+                "id": "patient.sample.storageMethodology.sts.txt",
+                "max": "1",
+                "min": 1,
+                "path": "patient.sample.storageMethodology.sts.txt",
+                "representation": [
+                    "xmlText"
+                ],
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            }
+        ]
+    },
+    "kind": "logical",
+    "name": "patient",
+    "status": "draft",
+    "type": "patient",
+    "url": "http://hl7.org/fhir/StructureDefinition/IDK",
+    "resourceType": "StructureDefinition"
+}

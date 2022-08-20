@@ -1,0 +1,9 @@
+map "http://hl7.org/fhir/StructureMap/idk" = "idk"
+
+uses "http://hl7.org/fhir/StructureDefinition/idk" alias FakePatient as source
+uses "http://hl7.org/fhir/StructureDefinition/Patient" as target
+
+group MapPatient(source src : FakePatient, target patient : Patient)
+{
+	src.lol as src
+}

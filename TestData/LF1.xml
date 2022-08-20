@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<patient id="23422" consent="true" year="2099" sex="female" biobank="1LF_UK" xmlns="http://hl7.org/fhir/idk">
+    <sample id="1LF_UK-33-1-PK" year="2075" number="3683">
+        <materialType>PK</materialType>
+        <totalAliquots>1</totalAliquots>
+        <availableAliquots>1</availableAliquots>
+        <takingDateTime>2075-04-12T10:30:00</takingDateTime>
+        <retrieved>unknown</retrieved>
+        <diagnosis>C54.9</diagnosis>
+        <storageMethodology>
+            <temperatureCelsius>-80</temperatureCelsius>
+            <methodology>SOP_P03</methodology>
+            <sts>false</sts>
+        </storageMethodology>
+    </sample>
+    <sample id="1LF_UK-33-1-SD" year="2075" number="3683">
+        <materialType>SD</materialType>
+        <totalAliquots>3</totalAliquots>
+        <availableAliquots>3</availableAliquots>
+        <takingDateTime>2075-04-12T10:30:00</takingDateTime>
+        <retrieved>unknown</retrieved>
+        <diagnosis>C54.9</diagnosis>
+        <storageMethodology>
+            <temperatureCelsius>-80</temperatureCelsius>
+            <methodology>SOP_P03</methodology>
+            <sts>false</sts>
+        </storageMethodology>
+    </sample>
+    <sample id="1LF_UK-33-1-P" year="2075" number="3683">
+        <materialType>P</materialType>
+        <totalAliquots>2</totalAliquots>
+        <availableAliquots>2</availableAliquots>
+        <takingDateTime>2075-04-12T10:30:00</takingDateTime>
+        <retrieved>unknown</retrieved>
+        <diagnosis>C54.9</diagnosis>
+        <storageMethodology>
+            <temperatureCelsius>-80</temperatureCelsius>
+            <methodology>SOP_P03</methodology>
+            <sts>false</sts>
+        </storageMethodology>
+    </sample>
+    <sample id="1LF_UK-33-1-gD" year="2075" number="3683">
+        <materialType>gD</materialType>
+        <totalAliquots>2</totalAliquots>
+        <availableAliquots>2</availableAliquots>
+        <takingDateTime>2075-04-12T10:30:00</takingDateTime>
+        <retrieved>unknown</retrieved>
+        <diagnosis>C54.9</diagnosis>
+        <storageMethodology>
+            <temperatureCelsius>-80</temperatureCelsius>
+            <methodology>SOP_P03</methodology>
+            <sts>false</sts>
+        </storageMethodology>
+    </sample>
+</patient>

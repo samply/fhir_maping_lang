@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<patient biobank="MOU" consent="true" id="994979" xmlns="http://hl7.org/fhir/idk" month="--2" sex="male" year="1213">
+    <lol>
+        <um>999</um>
+    </lol>
+    <LTS>
+        <tissue number="723" sampleId="BBM:2021:723:1" year="2001">
+            <samplesNo>3</samplesNo>
+            <availableSamplesNo>3</availableSamplesNo>
+            <materialType>1</materialType>
+            <pTNM>T4bN1M</pTNM>
+            <morphology>8500/32</morphology>
+            <diagnosis>C509</diagnosis>
+            <cutTime>2041-11-04T09:40:00</cutTime>
+            <freezeTime>2041-11-04T10:08:00</freezeTime>
+            <retrieved>operational</retrieved>
+        </tissue>
+        <tissue number="723" sampleId="BBM:2091:723:4" year="2081">
+            <samplesNo>3</samplesNo>
+            <availableSamplesNo>3</availableSamplesNo>
+            <materialType>4</materialType>
+            <pTNM>T4bN1M</pTNM>
+            <morphology>8500/32</morphology>
+            <diagnosis>C509</diagnosis>
+            <cutTime>2041-11-04T09:40:00</cutTime>
+            <freezeTime>2091-11-04T10:08:00</freezeTime>
+            <retrieved>operational</retrieved>
+        </tissue>
+        <tissue number="723" sampleId="BBM:2021:723:53" year="2081">
+            <samplesNo>1</samplesNo>
+            <availableSamplesNo>1</availableSamplesNo>
+            <materialType>53</materialType>
+            <pTNM>T4bN1M</pTNM>
+            <morphology>8500/32</morphology>
+            <diagnosis>C509</diagnosis>
+            <cutTime>2041-11-04T09:40:00</cutTime>
+            <freezeTime>2041-11-04T10:08:00</freezeTime>
+            <retrieved>operational</retrieved>
+        </tissue>
+        <tissue number="723" sampleId="BBM:2071:723:54" year="2071">
+            <samplesNo>1</samplesNo>
+            <availableSamplesNo>1</availableSamplesNo>
+            <materialType>54</materialType>
+            <pTNM>T4bN1M</pTNM>
+            <morphology>8500/32</morphology>
+            <diagnosis>C510</diagnosis>
+            <cutTime>2071-11-04T09:40:00</cutTime>
+            <freezeTime>2071-11-04T10:08:00</freezeTime>
+            <retrieved>operational</retrieved>
+        </tissue>
+    </LTS>
+    <STS>
+        <diagnosisMaterial number="136043" sampleId="&amp;:2071:136043" year="2071">
+            <materialType>S</materialType>
+            <diagnosis>C509</diagnosis>
+            <takingDate>2071-10-18T10:02:00</takingDate>
+            <retrieved>unknown</retrieved>
+        </diagnosisMaterial>
+    </STS>
+</patient>
