@@ -10,7 +10,7 @@ Current status: It can generate a StructureMap using the python FHIR library, fo
 namespace (TODO)
 Next step: Dynamic Generation using CLI
 java -jar validator_cli.jar BBM211219230002-000079.XML -transform http://hl7.org/fhir/StructureMap/idk -ig de.bbmri.fhir
--ig 4map.json -version 4.0.1 -ig 2sd.json -output fuck.json -log log.txt
+-ig 4map.json -version 4.0.1 -ig 2sd.json -output test.json -log log.txt
 
 curl https://www.hl7.org/fhir/humanname.profile.json?_summary=true | jq '.snapshot.element[] | {name: .id,type: .type[]
 ?.code}' | jq --slurp '.'
